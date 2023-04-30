@@ -4,3 +4,6 @@
 
 smash :: [String] -> String
 smash = foldl (\acc curr -> if null acc then acc ++ curr else acc ++ " " ++ curr) []
+
+-- smash = unwords
+-- there is inside function to solve this problem
